@@ -8,4 +8,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1000px;
+    margin: 100px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 550px;
+}
 
+.side-nav {
+    background-color: blue;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.nav-items a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.8rem;
+    background-color: brown;
+    padding: 10px;
+    width: 100%;
+}
+
+.subscription-container {
+    display: flex;
+    gap: 10px;
+}
