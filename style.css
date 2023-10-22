@@ -3,22 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* #5a5b7e
+#272870
+ */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:  1fr 2fr;
     width: 1000px;
     margin: 100px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 550px;
 }
 
 .side-nav {
-    background-color: blue;
+    padding: 10px 10px 0 30px;   
+}
+
+.nav-items li:hover,
+.nav-items li:active {
+    background-color: #e9eaf1;
 }
 
 .nav-items {
@@ -31,14 +37,58 @@ body {
 .nav-items a {
     text-decoration: none;
     display: inline-block;
-    color: #fff;
-    font-size: 1.8rem;
-    background-color: brown;
+    color: #272870;
     padding: 10px;
     width: 100%;
+}
+
+.main-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #272870;
+    border-bottom: 1px solid #515b7e;
+    padding-bottom: 10px;
+}
+
+.main-logo .innov {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main-logo .paritie {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.4rem;
+}
+
+.main-logo img {
+    border-radius: 5%;
+    width: 48px;
+    height: 48px;
+}
+
+.admin-profile img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.nav-items li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    fill: #272870;
 }
 
 .subscription-container {
     display: flex;
     gap: 10px;
+}
+
+.version {
+    background-color: #515b7e;
 }
