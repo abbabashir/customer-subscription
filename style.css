@@ -194,3 +194,125 @@ thead th {
 tbody tr:nth-child(even) {
     background-color: #e9ecef;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-main-container {
+    width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    row-gap: 32px;
+
+    display: none;
+}
+
+.modal-container {
+    
+    width: 800px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+    padding: 64px;
+    border-radius: 8px;
+}
+
+
+.modal-form-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 24px;
+    row-gap: 32px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 18px 0 18px 0;
+    text-align: left;
+    width: 100%;
+    color: #5a5b7e;
+}
+
+input:focus {
+    outline: none;
+}
+
+.modal-p {
+    margin-bottom: 24px;
+    color: #272870;
+    font-size: 18px;
+}
+
+.business {
+    grid-column: 1/-1;
+    /* grid-row: 1/-1; */
+}
+
+.personal {
+    grid-column: 1/-1;
+}
+
+.modal-button {
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #272870;
+    padding: 20px;
+    font-size: 18px;
+    grid-column: 1/-1;
+}
+
+button:hover {
+    cursor: pointer;
+    /* background-color: #3d3f86; */
+    box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+}
