@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     gap: 1.1rem;
     height: 100%;
+    border-right: 2px solid #343a40;
 }
 
 .nav-items li:hover,
@@ -121,19 +122,47 @@ body {
 }
 
 .selection-button {
-    background-color: #343a40;
-    padding: 18px;
-    width: 30%;
+    background-color: #b3b7bb;
+    padding: 2px;
+    border-radius: 5px;
+    /* width: 20%; */
+}
+.selection-container {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #343a40;
+}
+
+.selection-container .new {
+    background-color: #272870;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .selection-button button{
     border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #272870;
+    color: #fff;
+    width: 48px;
 }
 
 .subscription-container {
-    background-color: lightgoldenrodyellow;
+    /* background-color: #fafad2; */
     display: flex;
     flex-direction: column;
+}
+
+.subscription-container h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: #2f2f30;
 }
 
 .table-container {
