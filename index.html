@@ -11,6 +11,9 @@
       href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Codystar&family=Monoton&display=swap" rel="stylesheet">
     <title>Customer Subscription</title>
   </head>
   <body>
@@ -99,7 +102,7 @@
       </div>
 
       <div class="subscription-container">
-        <h1>06 : 03 PM</h1>
+        <h1 class="time"></h1>
         <div class="selection-container">
          <button class="new">New Subscription</button>
 
@@ -198,13 +201,14 @@
 
 
 
-    <div class="modal-main-container">
-      <div class="main-header">
+    <div class="modal-main-container modal">
+      <div class="main-header modal-content">
 
       </div>
   
       <div class="modal-container">
         <div class="modal-form-container">
+          <span class="close-button">&times;</span>
           <div>
             <p class="modal-p">Firstname</p>
             <input type="text" placeholder="John" name="" id="" />
@@ -244,4 +248,6 @@
       </div>
     </div>
   </body>
+  <script src="modal.js"></script>
+  <script src="script.js"></script>
 </html>
